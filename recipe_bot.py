@@ -1,12 +1,11 @@
 import tweepy
 import time
-# NOTE: I put my keys in the keys.py to separate them
+# NOTE: I put the keys in the credentials.py to separate them
 # from this main file.
-# Please refer to keys_format.py to see the format.
+
 from credentials import *
 
-# NOTE: flush=True is just for running this script
-# with PythonAnywhere's always-on task.
+# You will upload the code to this website
 # More info: https://help.pythonanywhere.com/pages/AlwaysOnTasks/
 print('this is my bot', flush=True)
 
@@ -14,6 +13,7 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 api = tweepy.API(auth)
 
+#you wiil need this txt to store the ID
 FILE_NAME = 'last_seen.txt'
 
 def retrieve_last_seen_id(file_name):
@@ -27,6 +27,8 @@ def store_last_seen_id(last_seen_id, file_name):
     f_write.write(str(last_seen_id))
     f_write.close()
     return
+
+#Here is how to tell the bot what to look for and what to mention, you can change it 
 
 def reply_to_tweets():
     print('retrieving and replying to tweets...')
