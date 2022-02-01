@@ -34,6 +34,8 @@ Create your Twitter account, mention the bot without running the code first so i
 In credentials.py add the API from Twitter developers. 
 Once you have all your information you can run “recipe_bot.py”. You will see that “last_seen.txt” changed and will respond to all your mentions. 
 
+[Back To The Top](#read-me-template)
+
 ---
 
 ## Requirements 
@@ -51,6 +53,9 @@ CONSUMER_SECRET = "YOUR CONSUMER_SECRET"
 ACCESS_TOKEN = "YOUR ACCESS_TOKEN"
 ACCESS_TOKEN_SECRET = "YOUR ACCESS_TOKEN_SECRET"
 ```
+
+[Back To The Top](#read-me-template)
+
 ---
 
 ## Installation
@@ -67,6 +72,7 @@ store_last_seen_id(since_id, FILE_NAME)
 4.	Run the file recipe_bot.py
 5.	Check if you get the response 
 If you do congrats, the bot is working well. 
+
 [Back To The Top](#read-me-template)
 
 ---
