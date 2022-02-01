@@ -34,7 +34,7 @@ Create your Twitter account, mention the bot without running the code first so i
 In credentials.py add the API from Twitter developers. 
 Once you have all your information you can run “recipe_bot.py”. You will see that “last_seen.txt” changed and will respond to all your mentions. 
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Twitter-Bot-README)
 
 ---
 
@@ -54,7 +54,7 @@ ACCESS_TOKEN = "YOUR ACCESS_TOKEN"
 ACCESS_TOKEN_SECRET = "YOUR ACCESS_TOKEN_SECRET"
 ```
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Twitter-Bot-README)
 
 ---
 
@@ -73,7 +73,7 @@ store_last_seen_id(since_id, FILE_NAME)
 5.	Check if you get the response 
 If you do congrats, the bot is working well. 
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Twitter-Bot-README)
 
 ---
 ## License
@@ -100,7 +100,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Twitter-Bot-README)
 
 ---
 
@@ -109,5 +109,5 @@ SOFTWARE.
 - Twitter - [@ChoryCodes](https://twitter.com/ChoryCodes)
 - Bot - [@getRecipe_Bot]( https://twitter.com/getRecipe_Bot)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Twitter-Bot-README)
 
