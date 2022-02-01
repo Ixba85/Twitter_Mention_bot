@@ -23,7 +23,7 @@
 
 ## Description
 
-I'm Learning Python so I'm making bots to learn and practice, this bot was made to send you a reply when the bot is mentioned and has a specific hashtag. You can use any reply or link that you want the bot to reply. Feel free to use it. 
+I'm Learning Python so I'm making bots to learn and practice, this bot was made to send you a reply when the bot is mentioned and has a specific hashtag. You can use any reply or link that you want the bot to reply to. Feel free to use it. 
 
 
 ---
@@ -33,6 +33,7 @@ I'm Learning Python so I'm making bots to learn and practice, this bot was made 
 Create your Twitter account, mention the bot without running the code first so it will have some mentions to look for. Then run the code “Get_mention_ID.py”. You will have the ID of all the mentions, stored in “last_seen.txt” the first ID that the bot will give you. 
 In credentials.py add the API from Twitter developers. 
 Once you have all your information you can run “recipe_bot.py”. You will see that “last_seen.txt” changed and will respond to all your mentions. 
+
 
 [Back To The Top](#Twitter-Bot-README)
 
@@ -94,8 +95,8 @@ copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
